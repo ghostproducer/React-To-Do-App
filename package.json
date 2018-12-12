@@ -1,0 +1,51 @@
+{
+  "name": "react-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^2.1.1",
+    "styled-components": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged",
+    "flow": "flow"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix",
+      "git add",
+      "prettier"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "5.6.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.60.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "1.9.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
