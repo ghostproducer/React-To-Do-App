@@ -14,12 +14,15 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.1.2"
   },
+  "homepage": "http://ghostproducer.github.io/React-To-Do-App/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{js}": [
@@ -42,6 +45,7 @@
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
     "flow-bin": "^0.60.1",
+    "gh-pages": "^2.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "prettier": "1.9.1"
