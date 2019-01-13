@@ -14,21 +14,22 @@ const ItemWrapper = styled.div`
   align-items: center;
 `;
 
-const CheckedText = styled.span`
+export const CheckedText = styled.span`
   flex: 1 1 auto;
-  text-decoration: ${props => (props.checked ? 'line-through' : '')};
+  text-decoration: ${props => (props.checked ? 'line-through' : 'none')};
 `;
 
 type Props = {
   text: string,
   onRemove: (element: number) => void,
+  elementKey: number,
 };
 
 type State = {
   checked: boolean,
 };
 
-class TodoItem extends React.Component<Props, State> {
+class TodoItem extends React.PureComponent<Props, State> {
   state = {
     checked: false,
   };
@@ -41,9 +42,14 @@ class TodoItem extends React.Component<Props, State> {
     });
   };
 
+  deleteElement = (): void => {
+    const { onRemove, elementKey } = this.props;
+    onRemove(elementKey);
+  };
+
   render(): React.Node {
     const { checked } = this.state;
-    const { onRemove, text } = this.props;
+    const { text } = this.props;
 
     return (
       <Card
@@ -62,7 +68,7 @@ class TodoItem extends React.Component<Props, State> {
             iconClassName="material-icons"
             style={buttonStyle}
             iconStyle={iconStyle}
-            onClick={onRemove}
+            onClick={this.deleteElement}
           >
             clear
           </IconButton>

@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    addTodoItem={[MockFunction]}
+    todoItems={
+      Array [
+        Object {
+          "key": 1,
+          "text": "clean house",
+        },
+        Object {
+          "key": 2,
+          "text": "feed cat",
+        },
+        Object {
+          "key": 3,
+          "text": "make cofee",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <RaisedButton
+          disabled={false}
+          fullWidth={true}
+          label="Add some random stuff!"
+          labelPosition="after"
+          primary={false}
+          secondary={false}
+        />,
+        <TextField
+          disabled={false}
+          floatingLabelFixed={false}
+          floatingLabelFocusStyle={
+            Object {
+              "color": "#ed7224",
+            }
+          }
+          floatingLabelText="Todo Title:"
+          fullWidth={true}
+          hintText="Hit a new todo and press Enter!"
+          multiLine={false}
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          rows={1}
+          style={
+            Object {
+              "marginBottom": "40px",
+              "marginTop": "20px",
+              "width": "75%",
+            }
+          }
+          type="text"
+          underlineFocusStyle={
+            Object {
+              "borderColor": "#ed7224",
+            }
+          }
+          underlineShow={true}
+          value=""
+        />,
+        <ForwardRef>
+          <TodoItem
+            elementKey={1}
+            text="clean house"
+          />
+          <TodoItem
+            elementKey={2}
+            text="feed cat"
+          />
+          <TodoItem
+            elementKey={3}
+            text="make cofee"
+          />
+        </ForwardRef>,
+      ],
+      "circle": false,
+      "rounded": true,
+      "style": Object {
+        "height": "70vh",
+        "margin": "auto",
+        "width": "35%",
+      },
+      "transitionEnabled": true,
+      "zDepth": 4,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": false,
+          "fullWidth": true,
+          "label": "Add some random stuff!",
+          "labelPosition": "after",
+          "onClick": undefined,
+          "primary": false,
+          "secondary": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": false,
+          "floatingLabelFixed": false,
+          "floatingLabelFocusStyle": Object {
+            "color": "#ed7224",
+          },
+          "floatingLabelText": "Todo Title:",
+          "fullWidth": true,
+          "hintText": "Hit a new todo and press Enter!",
+          "multiLine": false,
+          "onChange": [Function],
+          "onKeyPress": [Function],
+          "rows": 1,
+          "style": Object {
+            "marginBottom": "40px",
+            "marginTop": "20px",
+            "width": "75%",
+          },
+          "type": "text",
+          "underlineFocusStyle": Object {
+            "borderColor": "#ed7224",
+          },
+          "underlineShow": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <TodoItem
+              elementKey={1}
+              text="clean house"
+            />,
+            <TodoItem
+              elementKey={2}
+              text="feed cat"
+            />,
+            <TodoItem
+              elementKey={3}
+              text="make cofee"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "elementKey": 1,
+              "onRemove": undefined,
+              "text": "clean house",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "elementKey": 2,
+              "onRemove": undefined,
+              "text": "feed cat",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "elementKey": 3,
+              "onRemove": undefined,
+              "text": "make cofee",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "rules": Array [
+              "
+  max-height: 45vh;
+  overflow-y: auto;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <RaisedButton
+            disabled={false}
+            fullWidth={true}
+            label="Add some random stuff!"
+            labelPosition="after"
+            primary={false}
+            secondary={false}
+          />,
+          <TextField
+            disabled={false}
+            floatingLabelFixed={false}
+            floatingLabelFocusStyle={
+              Object {
+                "color": "#ed7224",
+              }
+            }
+            floatingLabelText="Todo Title:"
+            fullWidth={true}
+            hintText="Hit a new todo and press Enter!"
+            multiLine={false}
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            rows={1}
+            style={
+              Object {
+                "marginBottom": "40px",
+                "marginTop": "20px",
+                "width": "75%",
+              }
+            }
+            type="text"
+            underlineFocusStyle={
+              Object {
+                "borderColor": "#ed7224",
+              }
+            }
+            underlineShow={true}
+            value=""
+          />,
+          <ForwardRef>
+            <TodoItem
+              elementKey={1}
+              text="clean house"
+            />
+            <TodoItem
+              elementKey={2}
+              text="feed cat"
+            />
+            <TodoItem
+              elementKey={3}
+              text="make cofee"
+            />
+          </ForwardRef>,
+        ],
+        "circle": false,
+        "rounded": true,
+        "style": Object {
+          "height": "70vh",
+          "margin": "auto",
+          "width": "35%",
+        },
+        "transitionEnabled": true,
+        "zDepth": 4,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": true,
+            "label": "Add some random stuff!",
+            "labelPosition": "after",
+            "onClick": undefined,
+            "primary": false,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "floatingLabelFixed": false,
+            "floatingLabelFocusStyle": Object {
+              "color": "#ed7224",
+            },
+            "floatingLabelText": "Todo Title:",
+            "fullWidth": true,
+            "hintText": "Hit a new todo and press Enter!",
+            "multiLine": false,
+            "onChange": [Function],
+            "onKeyPress": [Function],
+            "rows": 1,
+            "style": Object {
+              "marginBottom": "40px",
+              "marginTop": "20px",
+              "width": "75%",
+            },
+            "type": "text",
+            "underlineFocusStyle": Object {
+              "borderColor": "#ed7224",
+            },
+            "underlineShow": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <TodoItem
+                elementKey={1}
+                text="clean house"
+              />,
+              <TodoItem
+                elementKey={2}
+                text="feed cat"
+              />,
+              <TodoItem
+                elementKey={3}
+                text="make cofee"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "elementKey": 1,
+                "onRemove": undefined,
+                "text": "clean house",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "elementKey": 2,
+                "onRemove": undefined,
+                "text": "feed cat",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "elementKey": 3,
+                "onRemove": undefined,
+                "text": "make cofee",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": true,
+              "rules": Array [
+                "
+  max-height: 45vh;
+  overflow-y: auto;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
